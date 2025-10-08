@@ -1,0 +1,14 @@
+{
+  "temperate": {
+    "desc": "mild winds, scattered trees"
+  },
+  "forest": {
+    "desc": "dense trees and shade"
+  },
+  "desert": {
+    "desc": "dry air, scorching days, cold nights"
+  },
+  "snow": {
+    "desc": "bitter cold, blinding flurries"
+  }
+}
