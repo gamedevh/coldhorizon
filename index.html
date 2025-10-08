@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cold Horizon — Web Native</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="overlay">
+      <button id="startBtn">Click to Play</button>
+      <p>WASD to move • Mouse to look • Space jump • Shift sprint • E interact • Tab inventory</p>
+    </div>
+    <div id="crosshair">+</div>
+    <div id="messages"></div>
+    <div id="inventory" class="panel hidden">
+      <h3>Inventory</h3>
+      <ul id="invList"></ul>
+      <h3>Crafting</h3>
+      <div id="crafting"></div>
+    </div>
+  </div>
+  <canvas id="c"></canvas>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
